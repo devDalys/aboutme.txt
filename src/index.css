@@ -4,5 +4,19 @@
     padding: 0;
     font-size: 16px;
     font-weight: 400;
-    font-family: Roboto, "Times New Roman", serif;
+    font-family: Roboto, sans-serif;
+}
+
+#root{
+    background: var(--bg-gray);
+    height: 100vh;
+    padding: 20px 0;
+}
+
+:root{
+    --text-black: #000;
+    --text-white: #fff;
+    --text-gray: #6F7985;
+    --bg-gray: #EDEEF0;
+
 }
