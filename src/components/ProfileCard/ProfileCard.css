@@ -1,30 +1,41 @@
-.card{
-    width: 100%;
-    max-width: 1100px;
-    display: flex;
-    margin: 0 auto;
-    padding: 12px;
-    border-radius: 12px;
-    background: var(--text-white);
+.card {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  margin: 0 auto;
+  padding: 12px;
+  border-radius: 12px;
+  background: var(--text-white);
 }
 
-.card__profile{
-    width: 100%;
-    display: flex;
-    gap: 18px;
+.card__profile {
+  width: 100%;
+  display: flex;
+  gap: 18px;
 }
 
-.card__profile_photo{
-    display: flex;
-    justify-content: center;
-    max-width: 230px;
+.card__profile_photo {
+  display: flex;
+  justify-content: center;
+  max-width: 230px;
 }
 
-.card__profile_photo-img{
-    max-width: 100%;
-    max-height: 100%;
+.card__profile_photo-img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 12px;
 }
 
-.card__profile_info-name{
-    font-size: 19px;
+.card__profile_info-name {
+  font-size: 19px;
+  margin-top: 12px;
+}
+
+.card__profile_info-name svg {
+  margin-left: 5px;
+}
+.card__profile_info-status {
+  color: var(--text-gray);
+  font-size: 13px;
+  margin-top: 3px;
 }
