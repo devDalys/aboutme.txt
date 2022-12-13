@@ -14,7 +14,6 @@ const ProfileInfo: React.FC = () => {
         <div className={"profile__info-item-icon"}>{home}</div>
         <div className={"profile__info-item-text"}>City: Voronezh</div>
       </div>
-
       <div className={"profile__info-item"}>
         <div className={"profile__info-item-icon"}>{work}</div>
         <div className={"profile__info-item-text"}>Company: red_mad_robot</div>
