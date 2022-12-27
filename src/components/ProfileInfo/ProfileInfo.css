@@ -37,3 +37,9 @@
   height: 20px;
   background: url("../../images/logo.png") center center / contain no-repeat;
 }
+
+@media screen and (max-width: 600px) {
+  .profile__info-item:nth-child(3):after {
+    display: none;
+  }
+}

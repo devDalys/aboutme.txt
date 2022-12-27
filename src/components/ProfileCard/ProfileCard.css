@@ -18,13 +18,10 @@
   display: flex;
   justify-content: center;
   min-width: 230px;
+  background: url("../../images/profilephoto.jpg") center center / cover
+    no-repeat;
+  border-radius: 8px;
   max-width: 230px;
-}
-
-.card__profile_photo-img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 12px;
 }
 
 .card__profile_info-name {
@@ -39,4 +36,14 @@
   color: var(--text-gray);
   font-size: 13px;
   margin-top: 3px;
+}
+
+@media screen and (max-width: 600px) {
+  .card__profile {
+    flex-direction: column;
+  }
+  .card__profile_photo {
+    min-width: 100%;
+    min-height: 300px;
+  }
 }
