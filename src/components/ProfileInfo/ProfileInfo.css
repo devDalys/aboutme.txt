@@ -20,7 +20,9 @@
   font-size: 15px;
   color: var(--text-gray);
 }
-
+.profile__info-item-text a {
+  color: var(--text-link);
+}
 .profile__info-item:nth-child(3) {
   position: relative;
 }
@@ -30,7 +32,7 @@
   content: "";
   display: block;
   top: -2px;
-  right: -15px;
+  right: 25%;
   width: 20px;
   height: 20px;
   background: url("../../images/logo.png") center center / contain no-repeat;

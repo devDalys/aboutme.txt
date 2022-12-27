@@ -1,6 +1,6 @@
 .card {
   width: 100%;
-  max-width: 1100px;
+  max-width: 650px;
   display: flex;
   margin: 0 auto;
   padding: 12px;
@@ -17,6 +17,7 @@
 .card__profile_photo {
   display: flex;
   justify-content: center;
+  min-width: 230px;
   max-width: 230px;
 }
 

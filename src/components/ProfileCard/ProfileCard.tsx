@@ -14,7 +14,7 @@ const ProfileCard: React.FC = () => {
         </div>
         <div className={"card__profile_info"}>
           <div className={"card__profile_info-name"}>
-            Victor Vinogradov
+            Виктор Виноградов
             {check}
           </div>
           <a

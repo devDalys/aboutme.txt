@@ -1,33 +1,43 @@
 import * as React from "react";
 import { birthday, home, subs, website, work } from "../../icons";
 import "./ProfileInfo.css";
+import Media from "../Media";
 const ProfileInfo: React.FC = () => {
   return (
     <div className={"profile__info"}>
       <div className={"profile__info-item"}>
         <div className={"profile__info-item-icon"}>{birthday}</div>
         <div className={"profile__info-item-text"}>
-          Date of birth: 16 April 2000.
+          День рождения: 16 апреля 2000.
         </div>
       </div>
       <div className={"profile__info-item"}>
         <div className={"profile__info-item-icon"}>{home}</div>
-        <div className={"profile__info-item-text"}>City: Voronezh</div>
+        <div className={"profile__info-item-text"}>Город: Воронеж</div>
       </div>
       <div className={"profile__info-item"}>
         <div className={"profile__info-item-icon"}>{work}</div>
-        <div className={"profile__info-item-text"}>Company: red_mad_robot</div>
+        <div className={"profile__info-item-text"}>
+          Место работы:{" "}
+          <a href={"https://redmadrobot.ru/"} target={"_blank"}>
+            red_mad_robot
+          </a>
+        </div>
       </div>
       <div className={"profile__info-item"}>
         <div className={"profile__info-item-icon"}>{subs}</div>
-        <div className={"profile__info-item-text"}>Followers: 3,14</div>
+        <div className={"profile__info-item-text"}>Подписчики: 210</div>
       </div>
       <div className={"profile__info-item"}>
         <div className={"profile__info-item-icon"}>{website}</div>
         <div className={"profile__info-item-text"}>
-          Website: You're already here.
+          Сайт:&nbsp;
+          <a href={"https://github.com/devDalys"} target={"_blank"}>
+            github.com/devDalys{" "}
+          </a>
         </div>
       </div>
+      <Media />
     </div>
   );
 };
