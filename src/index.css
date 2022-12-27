@@ -20,3 +20,9 @@
   --bg-gray: #edeef0;
   --text-link: #4986cc;
 }
+
+@media screen and (max-width: 600px){
+  #root {
+    padding: 0;
+  }
+}
